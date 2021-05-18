@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--ICS2O-Unit5-01-HTML-Random_Number_Guesser-->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Random number guesser">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Ryan-Shaw-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Random number guesser </title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Random Number Guesser</h1>
+    <p>Guess a number between 1 and 6: </p>
+    <p>
+      <form action="javascript:guessClicked()">
+        <label for="userGuess">Your guess: </label>
+        <input type="number" id="user-guess" placeholder="e.g 1 - 6"><br><br>
+        <input type="submit" value="Guess">
+      </form>
+    </p>
+    <div id="user-input">
+      <div id="user-answer"></div>
+    </div>
+  </body>
+</html>
